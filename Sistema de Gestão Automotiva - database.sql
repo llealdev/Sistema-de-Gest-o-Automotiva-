@@ -95,3 +95,8 @@ CREATE TABLE cargo (
  salario DECIMAL(10,2) NOT NULL,
  PRIMARY KEY (id)
 );
+
+ALTER TABLE funcionarios
+CHANGE cargo cargo_id INT NOT NULL;
+
+ALTER TABLE funcionarios ADD FOREIGN KEY (cargo_id) REFERENCES cargo(id);
