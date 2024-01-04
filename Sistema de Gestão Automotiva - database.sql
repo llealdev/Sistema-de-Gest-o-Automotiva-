@@ -88,3 +88,10 @@ CHANGE cargor cargo VARCHAR(50) NOT NULL;
 
 ALTER TABLE funcionarios
 CHANGE numero_indenticacao numero_indentificacao VARCHAR(20) NOT NULL;
+
+CREATE TABLE cargo ( 
+ id INT NOT NULL AUTO_INCREMENT,
+ nome VARCHAR(50) NOT NULL,
+ salario DECIMAL(10,2) NOT NULL,
+ PRIMARY KEY (id)
+);
