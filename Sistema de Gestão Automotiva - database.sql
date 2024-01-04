@@ -82,3 +82,6 @@ CREATE TABLE relatorios_gerenciais (
  dados_relatorios TEXT,
  PRIMARY KEY (id)
 );
+
+ALTER TABLE funcionarios
+CHANGE cargor cargo VARCHAR(50) NOT NULL;
