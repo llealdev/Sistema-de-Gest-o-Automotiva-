@@ -85,3 +85,6 @@ CREATE TABLE relatorios_gerenciais (
 
 ALTER TABLE funcionarios
 CHANGE cargor cargo VARCHAR(50) NOT NULL;
+
+ALTER TABLE funcionarios
+CHANGE numero_indenticacao numero_indentificacao VARCHAR(20) NOT NULL;
