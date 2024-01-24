@@ -22,6 +22,7 @@ Contribuições são bem-vindas! Antes de fazer alterações significativas, por
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT 
+Este projeto está licenciado 
+
 
 
